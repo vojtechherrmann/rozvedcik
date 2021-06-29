@@ -125,4 +125,20 @@ def player_age(player_tournament: PDF, player: PDF, tournament: PDF) -> str:
            f"Youngest: {youngest['player_code']}, age {int(youngest['age_years'])} years, {int(youngest['age_days'])} days at {youngest['tournament_code']}"
 
 
+def historical_table(player_team_tournament: PDF, match_tournament: PDF, player_team_extra_match_tournament: PDF) -> PDF:
+    player_team_tournament = (
+        player_team_tournament
+            .merge(match_tournament, how="left", left_on="team_tournament_code", right_on="team_tournament_code_1")
+            .merge(match_tournament, how="left", left_on="team_tournament_code", right_on="team_tournament_code_2")
+            .append(
+
+        )
+    )
+
+    a = 1
+
+historical_table(player_team_tournament, match_tournament, player_team_extra_match_tournament)
+
+
+
 print(player_age(player_tournament, player, tournament))
