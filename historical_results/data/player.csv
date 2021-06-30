@@ -1,60 +1,60 @@
-ï»¿player_id,player_code,player_name,player_nickname,player_display_name,date_of_birth,nationality
-1,Vojta,VojtÄ›ch Herrmann,Vojta,Vojta Herrmann,07.07.1995,CZE
-2,BÃ¡ra,Barbora HornÃ­kovÃ¡,BÃ¡ra,BÃ¡ra HornÃ­kovÃ¡,15.12.1997,CZE
-3,AniÄka ÄŒ.,Anna ÄŒernohousovÃ¡,AniÄka ÄŒ.,AniÄka ÄŒernohousovÃ¡,18.08.1998,CZE
-4,Ãla Å˜.,Alena Å˜Ã¡pkovÃ¡,Ãla Å˜.,Ãla Å˜Ã¡pkovÃ¡,11.11.1997,CZE
-5,Pavel J.,Pavel JirouÅ¡ek,Pavel J.,Pavel JirouÅ¡ek,06.10.1991,CZE
-6,LÃ©Åˆa P.,Lenka PekÃ¡rkovÃ¡,LÃ©Åˆa P.,LÃ©Åˆa PekÃ¡rkovÃ¡,,CZE
-7,Å imon S.,Å imon Stachura,Å imon S.,Å imon Stachura,27.10.1995,CZE
-8,KÃ¡ja H.,KarolÃ­na HolinskÃ¡,KÃ¡ja H.,KÃ¡ja HolinskÃ¡,,CZE
+player_id,player_code,player_name,player_nickname,player_display_name,date_of_birth,nationality
+1,Vojta,Vojt?ch Herrmann,Vojta,Vojta Herrmann,07.07.1995,CZE
+2,Bára,Barbora Horníková,Bára,Bára Horníková,15.12.1997,CZE
+3,Ani?ka ?.,Anna ?ernohousová,Ani?ka ?.,Ani?ka ?ernohousová,18.08.1998,CZE
+4,Ála ?.,Alena ?ápková,Ála ?.,Ála ?ápková,11.11.1997,CZE
+5,Pavel J.,Pavel Jiroušek,Pavel J.,Pavel Jiroušek,06.10.1991,CZE
+6,Lé?a P.,Lenka Pekárková,Lé?a P.,Lé?a Pekárková,,CZE
+7,Šimon S.,Šimon Stachura,Šimon S.,Šimon Stachura,27.10.1995,CZE
+8,Kája H.,Karolína Holinská,Kája H.,Kája Holinská,,CZE
 9,Arek A.,Arkadiusz Antoniewicz,Arek A.,Arek Antoniewicz,,SVK
-10,Simi Z.,Simona ZÃ¡leÅ¡Ã¡kovÃ¡,Simi Z.,Simi ZÃ¡leÅ¡Ã¡kovÃ¡,14.08.1999,SVK
-11,Honza K.,Jan KuÄera,Honza K.,Honza KuÄera,20.05.1996,CZE
-12,PÃ©Å¥a J.,Petr Janda,PÃ©Å¥a J.,PÃ©Å¥a Janda,,CZE
-13,Å otek,OndÅ™ej Kotek,Å otek,"OndÅ™ej ""Å otek"" Kotek",23.11.1990,CZE
-14,Vlasta K.,Vlasta KubÃ­Äek,Vlasta K.,Vlasta KubÃ­Äek,,CZE
-15,Karel M.,Karel MadÄ›ra,Karel M.,Karel MadÄ›ra,30.06.1996,CZE
-16,MatÄ›j N.,MatÄ›j Nekvinda,MatÄ›j N.,MatÄ›j Nekvinda,22.07.1993,CZE
-17,Vendy P.,Vendula PÃ­Å¡ovÃ¡,Vendy P.,Vendy PÃ­Å¡ovÃ¡,,CZE
-18,Simona K.,Simona KubÃ­ÄkovÃ¡,Simona K.,SimÄa KubÃ­ÄkovÃ¡,,CZE
-19,Mates K.,MatÄ›j Klonfar,Mates K.,Mates Klonfar,,CZE
-20,MarkÃ©ta K.,MarkÃ©ta KlonfarovÃ¡ (UlrychovÃ¡),MarkÃ©ta K.,MarkÃ©ta KlonfarovÃ¡ (UlrychovÃ¡),,CZE
-21,Hanka J.,Hana JirouÅ¡kovÃ¡,Hanka J.,Hanka JirouÅ¡kovÃ¡,22.09.?,CZE
-22,KÃ¡ja J.,KarolÃ­na JakovcovÃ¡ (Å enderovÃ¡),KÃ¡ja J.,KarolÃ­na JakovcovÃ¡ (Å enderovÃ¡),,CZE
+10,Simi Z.,Simona Zálešáková,Simi Z.,Simi Zálešáková,14.08.1999,SVK
+11,Honza K.,Jan Ku?era,Honza K.,Honza Ku?era,20.05.1996,CZE
+12,Pé?a J.,Petr Janda,Pé?a J.,Pé?a Janda,,CZE
+13,Šotek,Ond?ej Kotek,Šotek,"Ond?ej ""Šotek"" Kotek",23.11.1990,CZE
+14,Vlasta K.,Vlasta Kubí?ek,Vlasta K.,Vlasta Kubí?ek,,CZE
+15,Karel M.,Karel Mad?ra,Karel M.,Karel Mad?ra,30.06.1996,CZE
+16,Mat?j N.,Mat?j Nekvinda,Mat?j N.,Mat?j Nekvinda,22.07.1993,CZE
+17,Vendy P.,Vendula Píšová,Vendy P.,Vendy Píšová,,CZE
+18,Simona K.,Simona Kubí?ková,Simona K.,Sim?a Kubí?ková,,CZE
+19,Mates K.,Mat?j Klonfar,Mates K.,Mates Klonfar,,CZE
+20,Markéta K.,Markéta Klonfarová (Ulrychová),Markéta K.,Markéta Klonfarová (Ulrychová),,CZE
+21,Hanka J.,Hana Jiroušková,Hanka J.,Hanka Jiroušková,22.09.?,CZE
+22,Kája J.,Karolína Jakovcová (Šenderová),Kája J.,Karolína Jakovcová (Šenderová),,CZE
 23,Jaky,Petr Jakovec,Jaky,"Petr ""Jaky"" Jakovec",,CZE
 24,Radek D.,Radek Dupal,Radek D.,Radek Dupal,04.12.1990,CZE
-25,LukÃ¡Å¡ S.,LukÃ¡Å¡ SedlÃ¡Äek,LukÃ¡Å¡ S.,LukÃ¡Å¡ SedlÃ¡Äek,13.11.1992,CZE
-26,MÃ¡rty,Martin FiÅ¡er,MÃ¡rty,"Martin ""MÃ¡rty"" FiÅ¡er",,CZE
-27,TomÃ¡Å¡ H.,TomÃ¡Å¡ HornÃ­k,TomÃ¡Å¡ H.,TomÃ¡Å¡ HornÃ­k,28.08.1964,CZE
-28,MarÅ¥a N.,Martina NeuwirthovÃ¡,MarÅ¥a N.,MarÅ¥a NeuwirthovÃ¡,,CZE
-29,Roman H.,Roman HospodÃ¡r,Roman H.,Roman HospodÃ¡r,,CZE
-30,KaÄka Å .,KateÅ™ina Å korvÃ¡nkovÃ¡,KaÄka Å .,KaÄka Å korvÃ¡nkovÃ¡,27.04.1998,CZE
-31,Ondra K.,OndÅ™ej Koudelka,Ondra K.,Ondra Koudelka,,CZE
-32,Aneta S.,Aneta StanislavovÃ¡,Aneta S.,Aneta StanislavovÃ¡,15.09.1996,CZE
-33,FÃ­Äa,Michal Fiedler,FÃ­Äa,"Michal ""FÃ­Äa"" Fiedler",,CZE
-34,Kali,Ilona KalasovÃ¡,Kali,"Ilona ""Kali"" KalasovÃ¡",,CZE
-35,ZelÃ­,JiÅ™Ã­ Kotal,ZelÃ­,"JiÅ™Ã­ ""ZelÃ­"" Kotal",,CZE
-36,PajmiÄ,TomÃ¡Å¡ Pajma,PajmiÄ,"TomÃ¡Å¡ ""PajmiÄ"" Pajma",30.07.1989,CZE
-37,Rony,Kristina RouÄovÃ¡,Rony,"Kristina ""Rony"" RouÄovÃ¡",,CZE
-38,TomÃ¡Å¡ ÄŒ.,TomÃ¡Å¡ ÄŒermÃ¡k,TomÃ¡Å¡ ÄŒ.,TomÃ¡Å¡ ÄŒermÃ¡k,,CZE
-39,Zuzka ÄŒ.,Zuzana ÄŒernohousovÃ¡,Zuzka ÄŒ.,Zuzka ÄŒernohousovÃ¡,01.10.2001,CZE
-40,HeÅ™mÃ­,Jakub HeÅ™man,HeÅ™mÃ­,"Jakub ""HeÅ™mÃ­"" HeÅ™man",13.04.1997,CZE
-41,BÅ¯Äa,Michal BudÃ­k,BÅ¯Äa,"Michal ""BÅ¯Äa"" BudÃ­k",,CZE
-42,Vojta Hu.,VojtÄ›ch Humhal,Vojta Hu.,Vojta Humhal,15.09.1997,CZE
-43,Ziky,TomÃ¡Å¡ JaneÄek,Ziky,"TomÃ¡Å¡ ""Ziky"" JaneÄek",03.08.1974,CZE
-44,Ondra N.,OndÅ™ej NejedlÃ½,Ondra N.,Ondra NejedlÃ½,04.09.1997,CZE
-45,Kudla,TomÃ¡Å¡ KudlÃ¡Äek,Kudla,"TomÃ¡Å¡ ""Kudla"" KudlÃ¡Äek",27.09.1985,CZE
+25,Lukáš S.,Lukáš Sedlá?ek,Lukáš S.,Lukáš Sedlá?ek,13.11.1992,CZE
+26,Márty,Martin Fišer,Márty,"Martin ""Márty"" Fišer",,CZE
+27,Tomáš H.,Tomáš Horník,Tomáš H.,Tomáš Horník,28.08.1964,CZE
+28,Mar?a N.,Martina Neuwirthová,Mar?a N.,Mar?a Neuwirthová,,CZE
+29,Roman H.,Roman Hospodár,Roman H.,Roman Hospodár,,CZE
+30,Ka?ka Š.,Kate?ina Škorvánková,Ka?ka Š.,Ka?ka Škorvánková,27.04.1998,CZE
+31,Ondra K.,Ond?ej Koudelka,Ondra K.,Ondra Koudelka,,CZE
+32,Aneta S.,Aneta Stanislavová,Aneta S.,Aneta Stanislavová,15.09.1996,CZE
+33,Fí?a,Michal Fiedler,Fí?a,"Michal ""Fí?a"" Fiedler",,CZE
+34,Kali,Ilona Kalasová,Kali,"Ilona ""Kali"" Kalasová",,CZE
+35,Zelí,Ji?í Kotal,Zelí,"Ji?í ""Zelí"" Kotal",,CZE
+36,Pajmi?,Tomáš Pajma,Pajmi?,"Tomáš ""Pajmi?"" Pajma",30.07.1989,CZE
+37,Rony,Kristina Rou?ová,Rony,"Kristina ""Rony"" Rou?ová",,CZE
+38,Tomáš ?.,Tomáš ?ermák,Tomáš ?.,Tomáš ?ermák,,CZE
+39,Zuzka ?.,Zuzana ?ernohousová,Zuzka ?.,Zuzka ?ernohousová,01.10.2001,CZE
+40,He?mí,Jakub He?man,He?mí,"Jakub ""He?mí"" He?man",13.04.1997,CZE
+41,B??a,Michal Budík,B??a,"Michal ""B??a"" Budík",,CZE
+42,Vojta Hu.,Vojt?ch Humhal,Vojta Hu.,Vojta Humhal,15.09.1997,CZE
+43,Ziky,Tomáš Jane?ek,Ziky,"Tomáš ""Ziky"" Jane?ek",03.08.1974,CZE
+44,Ondra N.,Ond?ej Nejedlı,Ondra N.,Ondra Nejedlı,04.09.1997,CZE
+45,Kudla,Tomáš Kudlá?ek,Kudla,"Tomáš ""Kudla"" Kudlá?ek",27.09.1985,CZE
 46,Michal H.,Michal Hons,Michal H.,Michal Hons,,CZE
-47,Ondra H.,OndÅ™ej Hons,Ondra H.,Ondra Hons,,CZE
-48,Mazy,LukÃ¡Å¡ MazÃ¡nek,Mazy,"LukÃ¡Å¡ ""Mazy"" MazÃ¡nek",27.06.1985,CZE
+47,Ondra H.,Ond?ej Hons,Ondra H.,Ondra Hons,,CZE
+48,Mazy,Lukáš Mazánek,Mazy,"Lukáš ""Mazy"" Mazánek",27.06.1985,CZE
 49,Luke S.,Luke Smith,Luke S.,Luke Smith,30.08.1990,AUS
-50,Kolouch,MatÄ›j KolouÅ¡ek,Kolouch,"Mates ""Kolouch"" KolouÅ¡ek",10.07.2000,CZE
+50,Kolouch,Mat?j Koloušek,Kolouch,"Mates ""Kolouch"" Koloušek",10.07.2000,CZE
 51,Valda,Valerii Todua,Valda,"Valerii ""Valda"" Todua",30.07.1992,UKR
-52,Tito,Tito AgÃ¼ero Damiani,Tito,Tito AgÃ¼ero Damiani,,ITA
-53,Radim P.,Radim PtÃ¡k,Radim P.,Radim PtÃ¡k,,CZE
-54,MÃ¡ra Z.,Marek Zmrhal,MÃ¡ra Z.,MÃ¡ra Zmrhal,10.08.1993,CZE
-55,BÃ¡ra J.,Barbora JalÅ¯vkovÃ¡,BÃ¡ra J.,BÃ¡ra JalÅ¯vkovÃ¡,,CZE
-56,Terka B.,Tereza BlaÅ¾ek ÄŒernianskÃ¡,Terka B.,Terka BlaÅ¾ek ÄŒernianskÃ¡,24.02.1980,CZE
-57,Martina D.,Martina DeverovÃ¡ ZemanovÃ¡,Martina D.,Martina DeverovÃ¡ ZemanovÃ¡,,CZE
-58,Monika B.,Monika BinderovÃ¡,Monika B.,Monika BinderovÃ¡,,CZE
-59,Hanka V.,Hana VytiskovÃ¡,Hanka V.,Hanka VytiskovÃ¡,30.05.1980,CZE
+52,Tito,Tito Agüero Damiani,Tito,Tito Agüero Damiani,,ITA
+53,Radim P.,Radim Pták,Radim P.,Radim Pták,,CZE
+54,Mára Z.,Marek Zmrhal,Mára Z.,Mára Zmrhal,10.08.1993,CZE
+55,Bára J.,Barbora Jal?vková,Bára J.,Bára Jal?vková,,CZE
+56,Terka B.,Tereza Blaek ?ernianská,Terka B.,Terka Blaek ?ernianská,24.02.1980,CZE
+57,Martina D.,Martina Deverová Zemanová,Martina D.,Martina Deverová Zemanová,,CZE
+58,Monika B.,Monika Binderová,Monika B.,Monika Binderová,,CZE
+59,Hanka V.,Hana Vytisková,Hanka V.,Hanka Vytisková,30.05.1980,CZE
