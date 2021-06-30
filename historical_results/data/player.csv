@@ -1,33 +1,33 @@
 ﻿player_id,player_code,player_name,player_nickname,player_display_name,date_of_birth,nationality
 1,Vojta,Vojtěch Herrmann,Vojta,Vojta Herrmann,07.07.1995,CZE
 2,Bára,Barbora Horníková,Bára,Bára Horníková,15.12.1997,CZE
-3,Anička Č.,Anna Černohousová,Anička Č.,Anička Černohousová,18.8.1998,CZE
-4,Ála,Alena Řápková,Ála Ř.,Ála Řápková,,CZE
-5,Pavel,Pavel Jiroušek,Pavel J.,Pavel Jiroušek,,CZE
-6,Léňa,Lenka Pekárková,Léňa P.,Léňa Pekárková,,CZE
-7,Šimon,Šimon Stachura,Šimon S.,Šimon Stachura,,CZE
+3,Anička Č.,Anna Černohousová,Anička Č.,Anička Černohousová,18.08.1998,CZE
+4,Ála Ř.,Alena Řápková,Ála Ř.,Ála Řápková,,CZE
+5,Pavel J.,Pavel Jiroušek,Pavel J.,Pavel Jiroušek,,CZE
+6,Léňa P.,Lenka Pekárková,Léňa P.,Léňa Pekárková,,CZE
+7,Šimon S.,Šimon Stachura,Šimon S.,Šimon Stachura,,CZE
 8,Kája H.,Karolína Holinská,Kája H.,Kája Holinská,,CZE
-9,Arek,Arkadiusz Antoniewicz,Arek A.,Arek Antoniewicz,,SVK
-10,Simona Z.,Simona Zálešáková,Simi Z.,Simi Zálešáková,,SVK
+9,Arek A.,Arkadiusz Antoniewicz,Arek A.,Arek Antoniewicz,,SVK
+10,Simi Z.,Simona Zálešáková,Simi Z.,Simi Zálešáková,,SVK
 11,Honza K.,Jan Kučera,Honza K.,Honza Kučera,,CZE
 12,Péťa J.,Petr Janda,Péťa J.,Péťa Janda,,CZE
-13,Šotek,Ondřej Kotek,Šotek,"Ondřej ""Šotek"" Kotek",,CZE
-14,Vlasta,Vlasta Kubíček,Vlasta K.,Vlasta Kubíček,,CZE
+13,Šotek,Ondřej Kotek,Šotek,"Ondřej ""Šotek"" Kotek",23.11.1990,CZE
+14,Vlasta K.,Vlasta Kubíček,Vlasta K.,Vlasta Kubíček,,CZE
 15,Karel M.,Karel Maděra,Karel M.,Karel Maděra,,CZE
 16,Matěj N.,Matěj Nekvinda,Matěj N.,Matěj Nekvinda,,CZE
-17,Vendy,Vendula Píšová,Vendy P.,Vendy Píšová,,CZE
+17,Vendy P.,Vendula Píšová,Vendy P.,Vendy Píšová,,CZE
 18,Simona K.,Simona Kubíčková,Simona K.,Simča Kubíčková,,CZE
 19,Mates K.,Matěj Klonfar,Mates K.,Mates Klonfar,,CZE
-20,Markéta,Markéta Klonfarová (Ulrychová),Markéta K.,Markéta Klonfarová (Ulrychová),,CZE
+20,Markéta K.,Markéta Klonfarová (Ulrychová),Markéta K.,Markéta Klonfarová (Ulrychová),,CZE
 21,Hanka J.,Hana Jiroušková,Hanka J.,Hanka Jiroušková,,CZE
-22,Kája,Karolína Jakovcová (Šenderová),Kája J.,Karolína Jakovcová (Šenderová),,CZE
+22,Kája J.,Karolína Jakovcová (Šenderová),Kája J.,Karolína Jakovcová (Šenderová),,CZE
 23,Jaky,Petr Jakovec,Jaky,"Petr ""Jaky"" Jakovec",,CZE
 24,Radek D.,Radek Dupal,Radek D.,Radek Dupal,,CZE
 25,Lukáš S.,Lukáš Sedláček,Lukáš S.,Lukáš Sedláček,,CZE
 26,Márty,Martin Fišer,Márty,"Martin ""Márty"" Fišer",,CZE
 27,Tomáš H.,Tomáš Horník,Tomáš H.,Tomáš Horník,,CZE
-28,Marťa,Martina Neuwirthová,Marťa N.,Marťa Neuwirthová,,CZE
-29,Roman,Roman Hospodár,Roman H.,Roman Hospodár,,CZE
+28,Marťa N.,Martina Neuwirthová,Marťa N.,Marťa Neuwirthová,,CZE
+29,Roman H.,Roman Hospodár,Roman H.,Roman Hospodár,,CZE
 30,Kačka Š.,Kateřina Škorvánková,Kačka Š.,Kačka Škorvánková,,CZE
 31,Ondra K.,Ondřej Koudelka,Ondra K.,Ondra Koudelka,,CZE
 32,Aneta S.,Aneta Stanislavová,Aneta S.,Aneta Stanislavová,,CZE
@@ -36,25 +36,25 @@
 35,Zelí,Jiří Kotal,Zelí,"Jiří ""Zelí"" Kotal",,CZE
 36,Pajmič,Tomáš Pajma,Pajmič,"Tomáš ""Pajmič"" Pajma",,CZE
 37,Rony,Kristina Roučová,Rony,"Kristina ""Rony"" Roučová",,CZE
-38,Čermák,Tomáš Čermák,Tomáš Č.,Tomáš Čermák,,CZE
-39,Zuzka Č.,Zuzana Černohousová,Zuzka Č.,Zuzka Černohousová,,CZE
+38,Tomáš Č.,Tomáš Čermák,Tomáš Č.,Tomáš Čermák,,CZE
+39,Zuzka Č.,Zuzana Černohousová,Zuzka Č.,Zuzka Černohousová,01.10.2001,CZE
 40,Heřmí,Jakub Heřman,Heřmí,"Jakub ""Heřmí"" Heřman",,CZE
 41,Bůďa,Michal Budík,Bůďa,"Michal ""Bůďa"" Budík",,CZE
 42,Vojta Hu.,Vojtěch Humhal,Vojta Hu.,Vojta Humhal,,CZE
-43,Ziky,Tomáš Janeček,Ziky,"Tomáš ""Ziky"" Janeček",,CZE
-44,Ondran,Ondřej Nejedlý,Ondra N.,Ondra Nejedlý,,CZE
+43,Ziky,Tomáš Janeček,Ziky,"Tomáš ""Ziky"" Janeček",03.08.1974,CZE
+44,Ondra N.,Ondřej Nejedlý,Ondra N.,Ondra Nejedlý,,CZE
 45,Kudla,Tomáš Kudláček,Kudla,"Tomáš ""Kudla"" Kudláček",,CZE
 46,Michal H.,Michal Hons,Michal H.,Michal Hons,,CZE
 47,Ondra H.,Ondřej Hons,Ondra H.,Ondra Hons,,CZE
 48,Mazy,Lukáš Mazánek,Mazy,"Lukáš ""Mazy"" Mazánek",,CZE
-49,Luke,Luke Smith,Luke S.,Luke Smith,,AUS
-50,Kolouch,Matěj Koloušek,Kolouch,"Mates ""Kolouch"" Koloušek",,CZE
-51,Valda,Valerii Todua,Valda,"Valerii ""Valda"" Todua",,UKR
+49,Luke S.,Luke Smith,Luke S.,Luke Smith,30.08.1990,AUS
+50,Kolouch,Matěj Koloušek,Kolouch,"Mates ""Kolouch"" Koloušek",10.07.2000,CZE
+51,Valda,Valerii Todua,Valda,"Valerii ""Valda"" Todua",30.07.1992,UKR
 52,Tito,Tito Agüero Damiani,Tito,Tito Agüero Damiani,,ITA
-53,Radim,Radim Pták,Radim P.,Radim Pták,,CZE
-54,Mára Z.,Marek Zmrhal,Mára Z.,Mára Zmrhal,,CZE
+53,Radim P.,Radim Pták,Radim P.,Radim Pták,,CZE
+54,Mára Z.,Marek Zmrhal,Mára Z.,Mára Zmrhal,10.08.1993,CZE
 55,Bára J.,Barbora Jalůvková,Bára J.,Bára Jalůvková,,CZE
-56,Terka B. Č.,Tereza Blažek Černianská,Terka B.,Terka Blažek Černianská,,CZE
+56,Terka B.,Tereza Blažek Černianská,Terka B.,Terka Blažek Černianská,,CZE
 57,Martina D.,Martina Deverová Zemanová,Martina D.,Martina Deverová Zemanová,,CZE
-58,Monika,Monika Binderová,Monika B.,Monika Binderová,,CZE
-59,Háňa V.,Hana Vytisková,Hanka V.,Hanka Vytisková,,CZE
+58,Monika B.,Monika Binderová,Monika B.,Monika Binderová,,CZE
+59,Hanka V.,Hana Vytisková,Hanka V.,Hanka Vytisková,,CZE
