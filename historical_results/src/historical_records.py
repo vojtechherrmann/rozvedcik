@@ -1,7 +1,7 @@
 from pandas import DataFrame as PDF
 
 
-def historical_records(master_table: PDF) -> PDF:
+def historical_records(master_table: PDF) -> None:
 
     master_table = master_table.copy()
 
