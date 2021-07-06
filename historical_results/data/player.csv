@@ -1,60 +1,60 @@
-﻿player_id,player_code,player_name,player_nickname,player_display_name,date_of_birth,nationality
-1,Vojta,Vojtěch Herrmann,Vojta,Vojta Herrmann,07.07.1995,CZE
-2,Bára,Barbora Horníková,Bára,Bára Horníková,15.12.1997,CZE
-3,Anička Č.,Anna Černohousová,Anička Č.,Anička Černohousová,18.08.1998,CZE
-4,Ála Ř.,Alena Řápková,Ála Ř.,Ála Řápková,11.11.1997,CZE
-5,Pavel J.,Pavel Jiroušek,Pavel J.,Pavel Jiroušek,06.10.1991,CZE
-6,Léňa P.,Lenka Pekárková,Léňa P.,Léňa Pekárková,,CZE
-7,Šimon S.,Šimon Stachura,Šimon S.,Šimon Stachura,27.10.1995,CZE
-8,Kája H.,Karolína Holinská,Kája H.,Kája Holinská,,CZE
-9,Arek A.,Arkadiusz Antoniewicz,Arek A.,Arek Antoniewicz,,SVK
-10,Simi Z.,Simona Zálešáková,Simi Z.,Simi Zálešáková,14.08.1999,SVK
-11,Honza K.,Jan Kučera,Honza K.,Honza Kučera,20.05.1996,CZE
-12,Péťa J.,Petr Janda,Péťa J.,Péťa Janda,,CZE
-13,Šotek,Ondřej Kotek,Šotek,"Ondřej ""Šotek"" Kotek",23.11.1990,CZE
-14,Vlasta K.,Vlasta Kubíček,Vlasta K.,Vlasta Kubíček,,CZE
-15,Karel M.,Karel Maděra,Karel M.,Karel Maděra,30.06.1996,CZE
-16,Matěj N.,Matěj Nekvinda,Matěj N.,Matěj Nekvinda,22.07.1993,CZE
-17,Vendy P.,Vendula Píšová,Vendy P.,Vendy Píšová,,CZE
-18,Simona K.,Simona Kubíčková,Simona K.,Simča Kubíčková,,CZE
-19,Mates K.,Matěj Klonfar,Mates K.,Mates Klonfar,,CZE
-20,Markéta K.,Markéta Klonfarová (Ulrychová),Markéta K.,Markéta Klonfarová (Ulrychová),,CZE
-21,Hanka J.,Hana Jiroušková,Hanka J.,Hanka Jiroušková,,CZE
-22,Kája J.,Karolína Jakovcová (Šenderová),Kája J.,Karolína Jakovcová (Šenderová),,CZE
-23,Jaky,Petr Jakovec,Jaky,"Petr ""Jaky"" Jakovec",,CZE
-24,Radek D.,Radek Dupal,Radek D.,Radek Dupal,04.12.1990,CZE
-25,Lukáš S.,Lukáš Sedláček,Lukáš S.,Lukáš Sedláček,13.11.1992,CZE
-26,Márty,Martin Fišer,Márty,"Martin ""Márty"" Fišer",,CZE
-27,Tomáš H.,Tomáš Horník,Tomáš H.,Tomáš Horník,28.08.1964,CZE
-28,Marťa N.,Martina Neuwirthová,Marťa N.,Marťa Neuwirthová,,CZE
-29,Roman H.,Roman Hospodár,Roman H.,Roman Hospodár,,CZE
-30,Kačka Š.,Kateřina Škorvánková,Kačka Š.,Kačka Škorvánková,27.04.1998,CZE
-31,Ondra K.,Ondřej Koudelka,Ondra K.,Ondra Koudelka,,CZE
-32,Aneta S.,Aneta Stanislavová,Aneta S.,Aneta Stanislavová,15.09.1996,CZE
-33,Fíďa,Michal Fiedler,Fíďa,"Michal ""Fíďa"" Fiedler",,CZE
-34,Kali,Ilona Kalasová,Kali,"Ilona ""Kali"" Kalasová",,CZE
-35,Zelí,Jiří Kotal,Zelí,"Jiří ""Zelí"" Kotal",,CZE
-36,Pajmič,Tomáš Pajma,Pajmič,"Tomáš ""Pajmič"" Pajma",30.07.1989,CZE
-37,Rony,Kristina Roučová,Rony,"Kristina ""Rony"" Roučová",,CZE
-38,Tomáš Č.,Tomáš Čermák,Tomáš Č.,Tomáš Čermák,,CZE
-39,Zuzka Č.,Zuzana Černohousová,Zuzka Č.,Zuzka Černohousová,01.10.2001,CZE
-40,Heřmí,Jakub Heřman,Heřmí,"Jakub ""Heřmí"" Heřman",13.04.1997,CZE
-41,Bůďa,Michal Budík,Bůďa,"Michal ""Bůďa"" Budík",,CZE
-42,Vojta Hu.,Vojtěch Humhal,Vojta Hu.,Vojta Humhal,15.09.1997,CZE
-43,Ziky,Tomáš Janeček,Ziky,"Tomáš ""Ziky"" Janeček",03.08.1974,CZE
-44,Ondra N.,Ondřej Nejedlý,Ondra N.,Ondra Nejedlý,04.09.1997,CZE
-45,Kudla,Tomáš Kudláček,Kudla,"Tomáš ""Kudla"" Kudláček",27.09.1985,CZE
-46,Michal H.,Michal Hons,Michal H.,Michal Hons,,CZE
-47,Ondra H.,Ondřej Hons,Ondra H.,Ondra Hons,,CZE
-48,Mazy,Lukáš Mazánek,Mazy,"Lukáš ""Mazy"" Mazánek",27.06.1985,CZE
-49,Luke S.,Luke Smith,Luke S.,Luke Smith,30.08.1990,AUS
-50,Kolouch,Matěj Koloušek,Kolouch,"Mates ""Kolouch"" Koloušek",10.07.2000,CZE
-51,Valda,Valerii Todua,Valda,"Valerii ""Valda"" Todua",30.07.1992,UKR
-52,Tito,Tito Agüero Damiani,Tito,Tito Agüero Damiani,,ITA
-53,Radim P.,Radim Pták,Radim P.,Radim Pták,,CZE
-54,Mára Z.,Marek Zmrhal,Mára Z.,Mára Zmrhal,10.08.1993,CZE
-55,Bára J.,Barbora Jalůvková,Bára J.,Bára Jalůvková,,CZE
-56,Terka B.,Tereza Blažek Černianská,Terka B.,Terka Blažek Černianská,24.02.1980,CZE
-57,Martina D.,Martina Deverová Zemanová,Martina D.,Martina Deverová Zemanová,,CZE
-58,Monika B.,Monika Binderová,Monika B.,Monika Binderová,,CZE
-59,Hanka V.,Hana Vytisková,Hanka V.,Hanka Vytisková,30.05.1980,CZE
+﻿player_id,player_code,player_name,player_nickname,player_display_name,date_of_birth,nationality,highest_league
+1,Vojta,Vojtěch Herrmann,Vojta,Vojta Herrmann,07.07.1995,CZE,Krajský přebor
+2,Bára,Barbora Horníková,Bára,Bára Horníková,15.12.1997,CZE,"Krajský přebor, Kadetská extraliga"
+3,Anička Č.,Anna Černohousová,Anička Č.,Anička Černohousová,18.08.1998,CZE,"Krajský přebor, Juniorská 1. liga"
+4,Ála Ř.,Alena Řápková,Ála Ř.,Ála Řápková,11.11.1997,CZE,
+5,Pavel J.,Pavel Jiroušek,Pavel J.,Pavel Jiroušek,06.10.1991,CZE,AVL
+6,Léňa P.,Lenka Pekárková,Léňa P.,Léňa Pekárková,,CZE,AVL
+7,Šimon S.,Šimon Stachura,Šimon S.,Šimon Stachura,27.10.1995,CZE,AVL
+8,Kája H.,Karolína Holinská,Kája H.,Kája Holinská,,CZE,AVL
+9,Arek A.,Arkadiusz Antoniewicz,Arek A.,Arek Antoniewicz,,SVK,AVL
+10,Simi Z.,Simona Zálešáková,Simi Z.,Simi Zálešáková,14.08.1999,SVK,AVL
+11,Honza K.,Jan Kučera,Honza K.,Honza Kučera,20.05.1996,CZE,AVL
+12,Péťa J.,Petr Janda,Péťa J.,Péťa Janda,,CZE,Krajský přebor
+13,Šotek,Ondřej Kotek,Šotek,"Ondřej ""Šotek"" Kotek",23.11.1990,CZE,Krajský přebor
+14,Vlasta K.,Vlasta Kubíček,Vlasta K.,Vlasta Kubíček,,CZE,M2
+15,Karel M.,Karel Maděra,Karel M.,Karel Maděra,30.06.1996,CZE,Krajský přebor
+16,Matěj N.,Matěj Nekvinda,Matěj N.,Matěj Nekvinda,22.07.1993,CZE,AVL
+17,Vendy P.,Vendula Píšová,Vendy P.,Vendy Píšová,,CZE,AVL
+18,Simona K.,Simona Kubíčková,Simona K.,Simča Kubíčková,,CZE,
+19,Mates K.,Matěj Klonfar,Mates K.,Mates Klonfar,,CZE,M2
+20,Markéta K.,Markéta Klonfarová (Ulrychová),Markéta K.,Markéta Klonfarová (Ulrychová),,CZE,2. liga
+21,Hanka J.,Hana Jiroušková,Hanka J.,Hanka Jiroušková,,CZE,AVL
+22,Kája J.,Karolína Jakovcová (Šenderová),Kája J.,Karolína Jakovcová (Šenderová),,CZE,
+23,Jaky,Petr Jakovec,Jaky,"Petr ""Jaky"" Jakovec",,CZE,2. liga
+24,Radek D.,Radek Dupal,Radek D.,Radek Dupal,04.12.1990,CZE,AVL
+25,Lukáš S.,Lukáš Sedláček,Lukáš S.,Lukáš Sedláček,13.11.1992,CZE,M2
+26,Márty,Martin Fišer,Márty,"Martin ""Márty"" Fišer",,CZE,AVL
+27,Tomáš H.,Tomáš Horník,Tomáš H.,Tomáš Horník,28.08.1964,CZE,AVL
+28,Marťa N.,Martina Neuwirthová,Marťa N.,Marťa Neuwirthová,,CZE,AVL
+29,Roman H.,Roman Hospodár,Roman H.,Roman Hospodár,,CZE,AVL
+30,Kačka Š.,Kateřina Škorvánková,Kačka Š.,Kačka Škorvánková,27.04.1998,CZE,AVL
+31,Ondra K.,Ondřej Koudelka,Ondra K.,Ondra Koudelka,,CZE,Krajský přebor
+32,Aneta S.,Aneta Stanislavová,Aneta S.,Aneta Stanislavová,15.09.1996,CZE,AVL
+33,Fíďa,Michal Fiedler,Fíďa,"Michal ""Fíďa"" Fiedler",,CZE,2. liga
+34,Kali,Ilona Kalasová,Kali,"Ilona ""Kali"" Kalasová",,CZE,2. liga
+35,Zelí,Jiří Kotal,Zelí,"Jiří ""Zelí"" Kotal",,CZE,1. liga
+36,Pajmič,Tomáš Pajma,Pajmič,"Tomáš ""Pajmič"" Pajma",30.07.1989,CZE,UNIQA Extraliga
+37,Rony,Kristina Roučová,Rony,"Kristina ""Rony"" Roučová",,CZE,AVL
+38,Tomáš Č.,Tomáš Čermák,Tomáš Č.,Tomáš Čermák,,CZE,AVL
+39,Zuzka Č.,Zuzana Černohousová,Zuzka Č.,Zuzka Černohousová,01.10.2001,CZE,"Krajský přebor, Juniorská 1. liga"
+40,Heřmí,Jakub Heřman,Heřmí,"Jakub ""Heřmí"" Heřman",13.04.1997,CZE,1. liga
+41,Bůďa,Michal Budík,Bůďa,"Michal ""Bůďa"" Budík",,CZE,1. liga
+42,Vojta Hu.,Vojtěch Humhal,Vojta Hu.,Vojta Humhal,15.09.1997,CZE,"Krajský přebor, Juniorská extraliga"
+43,Ziky,Tomáš Janeček,Ziky,"Tomáš ""Ziky"" Janeček",03.08.1974,CZE,1. liga
+44,Ondra N.,Ondřej Nejedlý,Ondra N.,Ondra Nejedlý,04.09.1997,CZE,"Krajský přebor, Juniorská extraliga"
+45,Kudla,Tomáš Kudláček,Kudla,"Tomáš ""Kudla"" Kudláček",27.09.1985,CZE,2. liga
+46,Michal H.,Michal Hons,Michal H.,Michal Hons,,CZE,Juniorská extraliga
+47,Ondra H.,Ondřej Hons,Ondra H.,Ondra Hons,,CZE,Juniorská extraliga
+48,Mazy,Lukáš Mazánek,Mazy,"Lukáš ""Mazy"" Mazánek",27.06.1985,CZE,2. liga
+49,Luke S.,Luke Smith,Luke S.,Luke Smith,30.08.1990,AUS,"Serie A (ITA), Reprezentace AUS"
+50,Kolouch,Matěj Koloušek,Kolouch,"Mates ""Kolouch"" Koloušek",10.07.2000,CZE,UNIQA Extraliga
+51,Valda,Valerii Todua,Valda,"Valerii ""Valda"" Todua",30.07.1992,UKR,"UNIQA Extraliga, Reprezentace UKR"
+52,Tito,Tito Agüero Damiani,Tito,Tito Agüero Damiani,,ITA,Serie C (ITA)
+53,Radim P.,Radim Pták,Radim P.,Radim Pták,,CZE,
+54,Mára Z.,Marek Zmrhal,Mára Z.,Mára Zmrhal,10.08.1993,CZE,"UNIQA Extraliga, Reprezentace CZE"
+55,Bára J.,Barbora Jalůvková,Bára J.,Bára Jalůvková,,CZE,
+56,Terka B.,Tereza Blažek Černianská,Terka B.,Terka Blažek Černianská,24.02.1980,CZE,
+57,Martina D.,Martina Deverová Zemanová,Martina D.,Martina Deverová Zemanová,,CZE,
+58,Monika B.,Monika Binderová,Monika B.,Monika Binderová,,CZE,
+59,Hanka V.,Hana Vytisková,Hanka V.,Hanka Vytisková,30.05.1980,CZE,
