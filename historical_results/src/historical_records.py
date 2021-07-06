@@ -28,12 +28,6 @@ def historical_records(master_table: PDF) -> PDF:
     )
     print(f"Most rallies: {max_rallies} ({players_rallies})")
 
-    max_rallies = master_table['rallies'].max()
-    players_rallies = ", ".join(
-        master_table[master_table['rallies'] == max_rallies]['player_nickname'].tolist()
-    )
-    print(f"Most rallies: {max_rallies} ({players_rallies})")
-
     oldest = master_table.sort_values(by=["max_player_age_years", "max_player_age_days"], na_position="last", inplace=False, ascending=False).iloc[0]
     youngest = master_table.sort_values(by=["min_player_age_years", "min_player_age_days"], na_position="last", inplace=False).iloc[0]
 
