@@ -1,7 +1,22 @@
 from pandas import DataFrame as PDF
 
 
-def historical_records(master_table: PDF) -> None:
+def print_historical_records(
+        master_table: PDF,
+        tournament: PDF,
+        match_tournament: PDF,
+        set_tournament: PDF,
+) -> None:
+
+    print(f"Nr of years: {tournament['year'].nunique()}")
+
+    print(f"Nr of tournaments: {tournament.shape[0]}")
+
+    print(f"Nr of matches: {match_tournament.shape[0]}")
+
+    print(f"Nr of sets: {set_tournament.shape[0]}")
+
+    print(f"Nr of rallies: {set_tournament['score_end_1'].sum() + set_tournament['score_end_2'].sum() - set_tournament['score_start_1'].sum() - set_tournament['score_start_2'].sum()}")
 
     master_table = master_table.copy()
 

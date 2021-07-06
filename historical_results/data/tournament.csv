@@ -1,5 +1,5 @@
-﻿tournament_id,tournament_code,date,category
-1,2019,13.7.2019,
-2,2020,18.7.2020,
-3,2021-profi,26.6.2021,profi
-4,2021-hobby,7.8.2021,hobby
+﻿tournament_id,tournament_code,date,category,year
+1,2019,13.7.2019,,2019
+2,2020,18.7.2020,,2020
+3,2021-profi,26.6.2021,profi,2021
+4,2021-hobby,7.8.2021,hobby,2021

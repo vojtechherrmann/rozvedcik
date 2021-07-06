@@ -1,4 +1,3 @@
-
 from src.initial_loading import (
     category,
     player,
@@ -13,7 +12,8 @@ from src.initial_loading import (
 )
 from src.master_table import master_table
 from src.historical_table import historical_table
-from src.historical_records import historical_records
+from src.historical_records import print_historical_records
+from src.player_detail import player_detail
 
 mt = master_table(
     player_team_tournament=player_team_tournament,
@@ -28,6 +28,15 @@ mt = master_table(
 
 ht = historical_table(mt)
 
-historical_records(mt)
+print_historical_records(
+    master_table=mt,
+    tournament=tournament,
+    match_tournament=match_tournament,
+    set_tournament=set_tournament,
+)
+
+for player_nickname in mt.player_nickname.to_list():
+    print(f"PLAYER: {player_nickname}")
+    player_detail(mt, player_nickname=player_nickname)
 
 a = 1
