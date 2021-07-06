@@ -105,7 +105,7 @@ def master_table(
 
     master_table_ = (
         player_set
-            .groupby(["player_code", "player_nickname"])
+            .groupby(["player_code", "player_nickname", "nationality"])
             .agg(
                 tournaments=("tournament_code", PDS.nunique),
                 matches=("match_tournament_code", PDS.nunique),

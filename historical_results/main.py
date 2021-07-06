@@ -28,6 +28,6 @@ mt = master_table(
 
 ht = historical_table(mt)
 
-# hr = historical_records(mt)
+historical_records(mt)
 
 a = 1
