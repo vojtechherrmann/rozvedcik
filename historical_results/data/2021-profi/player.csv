@@ -1,25 +1,25 @@
-﻿player_tournament_id,player_tournament_code,player_code,tournament_category_code
-3_1,2021-profi_Bára,Bára,2021-profi_epsilon
-3_2,2021-profi_Vojta,Vojta,2021-profi_delta
-3_3,2021-profi_Anička Č.,Anička Č.,2021-profi_epsilon
-3_4,2021-profi_Hanka V.,Hanka V.,2021-profi_zeta
-3_5,2021-profi_Terka B.,Terka B.,2021-profi_epsilon
-3_6,2021-profi_Bára J.,Bára J.,2021-profi_zeta
-3_7,2021-profi_Monika B.,Monika B.,2021-profi_zeta
-3_8,2021-profi_Martina D.,Martina D.,2021-profi_zeta
-3_9,2021-profi_Zuzka Č.,Zuzka Č.,2021-profi_epsilon
-3_10,2021-profi_Ziky,Ziky,2021-profi_beta
-3_11,2021-profi_Ondra N.,Ondra N.,2021-profi_gamma
-3_12,2021-profi_Kudla,Kudla,2021-profi_beta
-3_13,2021-profi_Michal H.,Michal H.,2021-profi_gamma
-3_14,2021-profi_Ondra H.,Ondra H.,2021-profi_delta
-3_15,2021-profi_Mazy,Mazy,2021-profi_gamma
-3_16,2021-profi_Luke S.,Luke S.,2021-profi_alfa
-3_17,2021-profi_Kolouch,Kolouch,2021-profi_alfa
-3_18,2021-profi_Valda,Valda,2021-profi_alfa
-3_19,2021-profi_Tito,Tito,2021-profi_beta
-3_20,2021-profi_Radim P.,Radim P.,2021-profi_delta
-3_21,2021-profi_Mára Z.,Mára Z.,2021-profi_alfa
-3_22,2021-profi_Zelí,Zelí,2021-profi_delta
-3_23,2021-profi_Pajmič,Pajmič,2021-profi_beta
-3_24,2021-profi_Heřmí,Heřmí,2021-profi_gamma
+﻿player_tournament_id,player_tournament_code,player_code,tournament_category_code,player_result
+3_1,2021-profi_Bára,Bára,2021-profi_epsilon,4
+3_2,2021-profi_Vojta,Vojta,2021-profi_delta,3
+3_3,2021-profi_Anička Č.,Anička Č.,2021-profi_epsilon,5
+3_4,2021-profi_Hanka V.,Hanka V.,2021-profi_zeta,1
+3_5,2021-profi_Terka B.,Terka B.,2021-profi_epsilon,8
+3_6,2021-profi_Bára J.,Bára J.,2021-profi_zeta,9
+3_7,2021-profi_Monika B.,Monika B.,2021-profi_zeta,10
+3_8,2021-profi_Martina D.,Martina D.,2021-profi_zeta,7
+3_9,2021-profi_Zuzka Č.,Zuzka Č.,2021-profi_epsilon,6
+3_10,2021-profi_Ziky,Ziky,2021-profi_beta,1
+3_11,2021-profi_Ondra N.,Ondra N.,2021-profi_gamma,5
+3_12,2021-profi_Kudla,Kudla,2021-profi_beta,9
+3_13,2021-profi_Michal H.,Michal H.,2021-profi_gamma,8
+3_14,2021-profi_Ondra H.,Ondra H.,2021-profi_delta,12
+3_15,2021-profi_Mazy,Mazy,2021-profi_gamma,6
+3_16,2021-profi_Luke S.,Luke S.,2021-profi_alfa,2
+3_17,2021-profi_Kolouch,Kolouch,2021-profi_alfa,11
+3_18,2021-profi_Valda,Valda,2021-profi_alfa,12
+3_19,2021-profi_Tito,Tito,2021-profi_beta,10
+3_20,2021-profi_Radim P.,Radim P.,2021-profi_delta,11
+3_21,2021-profi_Mára Z.,Mára Z.,2021-profi_alfa,3
+3_22,2021-profi_Zelí,Zelí,2021-profi_delta,2
+3_23,2021-profi_Pajmič,Pajmič,2021-profi_beta,7
+3_24,2021-profi_Heřmí,Heřmí,2021-profi_gamma,4
