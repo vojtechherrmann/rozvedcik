@@ -6,6 +6,8 @@ from pandas import DataFrame as PDF
 from pandas import Series as PDS
 from dateutil.relativedelta import relativedelta
 
+from src.utils import convert_series_to_int, convert_pdf_to_int
+
 
 def player_age(i: PDF) -> Tuple[PDS, PDS]:
 
@@ -22,7 +24,6 @@ def player_age(i: PDF) -> Tuple[PDS, PDS]:
                 ).years,
                 axis=1,
             )
-            # .astype(int) TODO put once all dates of birth are filled
     )
 
     i2["age_years"] = age_years
@@ -36,10 +37,9 @@ def player_age(i: PDF) -> Tuple[PDS, PDS]:
                     year=x[0].year - (1 if (x[0] - x[1].replace(year=x[0].year)).days < 0 else 0))).days,
                 axis=1,
             )
-            # .astype(int) TODO put once all dates of birth are filled
     )
 
-    return age_years, age_days
+    return convert_series_to_int(age_years), convert_series_to_int(age_days)
 
 
 def master_table(
@@ -50,6 +50,7 @@ def master_table(
         player_tournament: PDF,
         player: PDF,
         tournament: PDF,
+        team_tournament: PDF,
 ) -> PDF:
 
     player_match = pd.concat(
@@ -62,14 +63,14 @@ def master_table(
                     right_on="team_tournament_code"
                 )
                 [["player_tournament_code", "team_tournament_code", "match_tournament_code"]]
-                .assign(home_team = True),
+                .assign(home_team=True),
             match_tournament
                 .merge(
-                player_team_tournament,
-                how="left",
-                left_on="team_tournament_code_2",
-                right_on="team_tournament_code"
-            )
+                    player_team_tournament,
+                    how="left",
+                    left_on="team_tournament_code_2",
+                    right_on="team_tournament_code"
+                )
                 [["player_tournament_code", "team_tournament_code", "match_tournament_code"]]
                 .assign(home_team=False),
             player_team_extra_match_tournament
@@ -104,7 +105,7 @@ def master_table(
 
     master_table_ = (
         player_set
-            .groupby("player_nickname")
+            .groupby(["player_code", "player_nickname"])
             .agg(
                 tournaments=("tournament_code", PDS.nunique),
                 matches=("match_tournament_code", PDS.nunique),
@@ -119,10 +120,46 @@ def master_table(
             .reset_index()
     )
 
+    master_table_["rallies"] = \
+        master_table_["points_scored"] + master_table_["points_received"]
+
     master_table_["points_ratio"] = \
         master_table_["points_scored"] / master_table_["points_received"]
 
     master_table_["rank"] = \
         master_table_["points_ratio"].rank(method="min", ascending=False).astype(int)
 
-    return master_table_
+    player_medals = (
+        pd.concat(
+            [
+                team_tournament
+                    .merge(player_team_tournament, how="left", on="team_tournament_code")
+                    .merge(player_tournament, how="left", on="player_tournament_code")
+                    .groupby("player_code")
+                    .agg(
+                        result_gold_6=("team_result", lambda x: x[x == 1].shape[0]),
+                        result_silver_6=("team_result", lambda x: x[x == 2].shape[0]),
+                        result_bronze_6=("team_result", lambda x: x[x == 3].shape[0]),
+                    )
+                    .reset_index(),
+                player_tournament
+                    .groupby("player_code")
+                    .agg(
+                        result_gold_2=("player_result", lambda x: x[x == 1].shape[0]),
+                        result_silver_2=("player_result", lambda x: x[x == 2].shape[0]),
+                        result_bronze_2=("player_result", lambda x: x[x == 3].shape[0]),
+                    )
+                    .reset_index(),
+            ],
+            ignore_index=True
+        )
+            .groupby("player_code")
+            .sum()
+            .reset_index()
+    )
+
+    player_medals = convert_pdf_to_int(player_medals, cols_rgx=r"result_(.*)")
+
+    master_table_ = master_table_.merge(player_medals, how="left", on="player_code")
+
+    return master_table_.drop("player_code", axis=1, inplace=False)

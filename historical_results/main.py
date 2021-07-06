@@ -23,10 +23,11 @@ mt = master_table(
     player_tournament=player_tournament,
     player=player,
     tournament=tournament,
+    team_tournament=team_tournament
 )
 
 ht = historical_table(mt)
 
-hr = historical_records(mt)
+# hr = historical_records(mt)
 
 a = 1
