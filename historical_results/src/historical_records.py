@@ -31,5 +31,5 @@ def historical_records(master_table: PDF) -> PDF:
     oldest = master_table.sort_values(by=["max_player_age_years", "max_player_age_days"], na_position="last", inplace=False, ascending=False).iloc[0]
     youngest = master_table.sort_values(by=["min_player_age_years", "min_player_age_days"], na_position="last", inplace=False).iloc[0]
 
-    print(f"Oldest player: {oldest['player_nickname']}, age {int(oldest['max_player_age_years'])} years, {int(oldest['max_player_age_days'])} days")
-    print(f"Youngest player: {youngest['player_nickname']}, age {int(youngest['min_player_age_years'])} years, {int(youngest['min_player_age_days'])} days")
+    print(f"Oldest player: {oldest['player_nickname']}, age {oldest['max_player_age_years']} years, {oldest['max_player_age_days']} days")
+    print(f"Youngest player: {youngest['player_nickname']}, age {youngest['min_player_age_years']} years, {youngest['min_player_age_days']} days")

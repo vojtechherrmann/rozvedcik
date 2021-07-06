@@ -120,6 +120,8 @@ def master_table(
             .reset_index()
     )
 
+    master_table_ = convert_pdf_to_int(pdf=master_table_, cols_rgx=r"(min|max)_player_age_(.*)")
+
     master_table_["rallies"] = \
         master_table_["points_scored"] + master_table_["points_received"]
 
