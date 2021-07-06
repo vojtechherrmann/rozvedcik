@@ -5,7 +5,7 @@ from datetime import datetime
 import pandas as pd
 from pandas import DataFrame as PDF
 
-from src.utils import convert_series_to_int
+from src.utils import convert_series_to_int, convert_pdf_to_int
 
 
 def _load_file_to_pdf(path: Path) -> PDF:
@@ -83,10 +83,7 @@ for tournament_code in [_ for _ in os.listdir(_path) if os.path.isdir(_path / _)
         else team_tournament.append(_team_tournament_new, ignore_index=True)
     )
 
-set_tournament["score_start_1"] = convert_series_to_int(set_tournament["score_start_1"])
-set_tournament["score_start_2"] = convert_series_to_int(set_tournament["score_start_2"])
-set_tournament["score_end_1"] = convert_series_to_int(set_tournament["score_end_1"])
-set_tournament["score_end_2"] = convert_series_to_int(set_tournament["score_end_2"])
+set_tournament = convert_pdf_to_int(pdf=set_tournament, cols_rgx=["score_start_(.*)", "score_end_(.*)"])
 
 team_tournament["team_result"] = convert_series_to_int(team_tournament["team_result"])
 
