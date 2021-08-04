@@ -37,5 +37,3 @@ print_historical_records(
 
 for player_nickname in mt.player_nickname.to_list():
     player_detail(mt, player_nickname=player_nickname)
-
-a = 1
