@@ -1,7 +1,7 @@
 ﻿player_id,player_code,player_name,player_nickname,player_display_name,date_of_birth,nationality,highest_league
 1,Vojta,Vojtěch Herrmann,Vojta,Vojta Herrmann,07.07.1995,CZE,Krajský přebor
-2,Bára,Barbora Horníková,Bára,Bára Horníková,15.12.1997,CZE,Krajský přebor, Kadetská extraliga
-3,Anča,Anna Černohousová,Anča,Anička Černohousová,18.08.1998,CZE,Krajský přebor, Juniorská 1. liga
+2,Bára,Barbora Horníková,Bára,Bára Horníková,15.12.1997,CZE,"Krajský přebor, Kadetská extraliga"
+3,Anča,Anna Černohousová,Anča,Anička Černohousová,18.08.1998,CZE,"Krajský přebor, Juniorská 1. liga"
 4,Ála Ř.,Alena Řápková,Ála Ř.,Ála Řápková,11.11.1997,CZE,
 5,Pavel J.,Pavel Jiroušek,Pavel J.,Pavel Jiroušek,06.10.1991,CZE,AVL
 6,Léňa P.,Lenka Pekárková,Léňa P.,Léňa Pekárková,,CZE,AVL
@@ -37,22 +37,22 @@
 36,Pajmič,Tomáš Pajma,Pajmič,"Tomáš ""Pajmič"" Pajma",30.07.1989,CZE,UNIQA Extraliga
 37,Rony,Kristina Roučová,Rony,"Kristina ""Rony"" Roučová",,CZE,AVL
 38,Tomáš Č.,Tomáš Čermák,Tomáš Č.,Tomáš Čermák,,CZE,AVL
-39,Zuzka Č.,Zuzana Černohousová,Zuzka Č.,Zuzka Černohousová,01.10.2001,CZE,Krajský přebor, Juniorská 1. liga
+39,Zuzka Č.,Zuzana Černohousová,Zuzka Č.,Zuzka Černohousová,01.10.2001,CZE,"Krajský přebor, Juniorská 1. liga"
 40,Heřmí,Jakub Heřman,Heřmí,"Jakub ""Heřmí"" Heřman",13.04.1997,CZE,1. liga
 41,Bůďa,Michal Budík,Bůďa,"Michal ""Bůďa"" Budík",,CZE,1. liga
-42,Vojta Hu.,Vojtěch Humhal,Vojta Hu.,Vojta Humhal,15.09.1997,CZE,Krajský přebor, Juniorská extraliga
+42,Vojta Hu.,Vojtěch Humhal,Vojta Hu.,Vojta Humhal,15.09.1997,CZE,"Krajský přebor, Juniorská extraliga"
 43,Ziky,Tomáš Janeček,Ziky,"Tomáš ""Ziky"" Janeček",03.08.1974,CZE,1. liga
-44,Ondra N.,Ondřej Nejedlý,Ondra N.,Ondra Nejedlý,04.09.1997,CZE,Krajský přebor, Juniorská extraliga
+44,Ondra N.,Ondřej Nejedlý,Ondra N.,Ondra Nejedlý,04.09.1997,CZE,"Krajský přebor, Juniorská extraliga"
 45,Kudla,Tomáš Kudláček,Kudla,"Tomáš ""Kudla"" Kudláček",27.09.1985,CZE,2. liga
 46,Michal H.,Michal Hons,Michal H.,Michal Hons,,CZE,Juniorská extraliga
 47,Ondra H.,Ondřej Hons,Ondra H.,Ondra Hons,,CZE,Juniorská extraliga
 48,Mazy,Lukáš Mazánek,Mazy,"Lukáš ""Mazy"" Mazánek",27.06.1985,CZE,2. liga
-49,Luke S.,Luke Smith,Luke S.,Luke Smith,30.08.1990,AUS,Serie A (ITA), Reprezentace AUS
+49,Luke S.,Luke Smith,Luke S.,Luke Smith,30.08.1990,AUS,"Serie A (ITA), Reprezentace AUS"
 50,Kolouch,Matěj Koloušek,Kolouch,"Mates ""Kolouch"" Koloušek",10.07.2000,CZE,UNIQA Extraliga
-51,Valda,Valerii Todua,Valda,"Valerii ""Valda"" Todua",30.07.1992,UKR,UNIQA Extraliga, Reprezentace UKR
+51,Valda,Valerii Todua,Valda,"Valerii ""Valda"" Todua",30.07.1992,UKR,"UNIQA Extraliga, Reprezentace UKR"
 52,Tito,Tito Agüero Damiani,Tito,Tito Agüero Damiani,,ITA,Serie C (ITA)
 53,Radim P.,Radim Pták,Radim P.,Radim Pták,,CZE,
-54,Mára Z.,Marek Zmrhal,Mára Z.,Mára Zmrhal,10.08.1993,CZE,UNIQA Extraliga, Reprezentace CZE
+54,Mára Z.,Marek Zmrhal,Mára Z.,Mára Zmrhal,10.08.1993,CZE,"UNIQA Extraliga, Reprezentace CZE"
 55,Bára J.,Barbora Jalůvková,Bára J.,Bára Jalůvková,,CZE,
 56,Terka B.,Tereza Blažek Černianská,Terka B.,Terka Blažek Černianská,24.02.1980,CZE,1. liga
 57,Martina D.,Martina Deverová Zemanová,Martina D.,Martina Deverová Zemanová,,CZE,
