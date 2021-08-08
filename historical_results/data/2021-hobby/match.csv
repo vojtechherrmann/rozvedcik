@@ -1,1 +1,13 @@
 ﻿match_tournament_id,match_tournament_code,team_tournament_code_1,team_tournament_code_2,group_stage,quarterfinals,semifinals,finals,thirdplace
+4_1,2021-hobby_1,2021-hobby_Argentina,2021-hobby_Brazílie,1,0,0,0,0
+4_2,2021-hobby_2,2021-hobby_Francie,2021-hobby_Itálie,1,0,0,0,0
+4_3,2021-hobby_3,2021-hobby_Rusko,2021-hobby_Argentina,1,0,0,0,0
+4_4,2021-hobby_4,2021-hobby_Brazílie,2021-hobby_Francie,1,0,0,0,0
+4_5,2021-hobby_5,2021-hobby_Itálie,2021-hobby_Rusko,1,0,0,0,0
+4_6,2021-hobby_6,2021-hobby_Argentina,2021-hobby_Francie,1,0,0,0,0
+4_7,2021-hobby_7,2021-hobby_Brazílie,2021-hobby_Itálie,1,0,0,0,0
+4_8,2021-hobby_8,2021-hobby_Rusko,2021-hobby_Francie,1,0,0,0,0
+4_9,2021-hobby_9,2021-hobby_Argentina,2021-hobby_Itálie,1,0,0,0,0
+4_10,2021-hobby_10,2021-hobby_Brazílie,2021-hobby_Rusko,1,0,0,0,0
+4_11,2021-hobby_11,2021-hobby_Brazílie,2021-hobby_Rusko,0,0,0,0,1
+4_12,2021-hobby_12,2021-hobby_Argentina,2021-hobby_Francie,0,0,0,1,0

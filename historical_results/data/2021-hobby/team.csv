@@ -1,1 +1,6 @@
-﻿team_tournament_id,team_tournament_code,team_name
+﻿team_tournament_id,team_tournament_code,team_name,team_result
+4_1,2021-hobby_Argentina,Argentina,1
+4_2,2021-hobby_Brazílie,Brazílie,3
+4_3,2021-hobby_Francie,Francie,2
+4_4,2021-hobby_Itálie,Itálie,5
+4_5,2021-hobby_Rusko,Rusko,4
