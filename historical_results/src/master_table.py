@@ -74,6 +74,13 @@ def master_table(
                 [["player_tournament_code", "team_tournament_code", "match_tournament_code"]]
                 .assign(home_team=False),
             player_team_extra_match_tournament
+                .merge(
+                    match_tournament[["match_tournament_code", "team_tournament_code_1"]],
+                    how="left",
+                    on="match_tournament_code",
+                )
+                .assign(home_team=lambda x: x["team_tournament_code"] == x["team_tournament_code_1"])
+                .drop("team_tournament_code_1", axis=1)
         ],
         ignore_index=True
     )
