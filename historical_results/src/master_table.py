@@ -135,7 +135,7 @@ def master_table(
     master_table_["points_ratio"] = \
         master_table_["points_scored"] / master_table_["points_received"]
 
-    master_table_["rank"] = \
+    master_table_["#"] = \
         master_table_["points_ratio"].rank(method="min", ascending=False).astype(int)
 
     player_medals = (

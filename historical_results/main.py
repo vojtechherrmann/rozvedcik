@@ -1,9 +1,7 @@
 
 from src.initial_loading import (
-    category,
     player,
     tournament,
-    category_tournament,
     match_tournament,
     player_tournament,
     player_team_tournament,
@@ -29,14 +27,14 @@ mt = master_table(
 
 ht = historical_table(mt)
 
-# print_historical_records(
-#     master_table=mt,
-#     tournament=tournament,
-#     match_tournament=match_tournament,
-#     set_tournament=set_tournament,
-# )
-#
+print_historical_records(
+    master_table=mt,
+    tournament=tournament,
+    match_tournament=match_tournament,
+    set_tournament=set_tournament,
+)
+
 # for player_nickname in mt.player_nickname.to_list():
 #     player_detail(mt, player_nickname=player_nickname)
 
-save_to_csv(ht, 'players.csv')
+save_to_csv(ht, 'historical_table.csv')

@@ -1,5 +1,5 @@
 from typing import List, Dict, Any
-from pandas import DataFrame as PDF
+from pandas import DataFrame as PDF, Series as PDS
 
 
 def create_link(row: Dict[str, Any]) -> str:
@@ -10,29 +10,41 @@ def add_medal_type(medals: List[str], medal_type: str, medal_appearance: str, me
     medals.extend([f"<span {medal_appearance}>{medal_type}</span>" for _ in range(medal_count)])
 
 
+_gold_medal = "🥇"
+_silver_medal = "🥈"
+_bronze_medal = "🥉"
+_sadface = "☹"
+_invisible_color_code = "ffffff00"
+
+
 def medals_as_emojis(row: Dict[str, Any]) -> str:
-    gold_medal = "🥇"
-    silver_medal = "🥈"
-    bronze_medal = "🥉"
+
     teams = "style='font-size:28px; background-color: #d1ada8; border-radius: 2px;'"
     pairs = "style='font-size:28px; background-color: #8DACA6; border-radius: 2px;'"
     medals = []
 
-    add_medal_type(medals, gold_medal, teams, row['result_gold_2'])
-    add_medal_type(medals, gold_medal, pairs, row['result_gold_6'])
+    add_medal_type(medals, _gold_medal, teams, row['result_gold_2'])
+    add_medal_type(medals, _gold_medal, pairs, row['result_gold_6'])
 
-    add_medal_type(medals, silver_medal, teams, row['result_silver_2'])
-    add_medal_type(medals, silver_medal, pairs, row['result_silver_6'])
+    add_medal_type(medals, _silver_medal, teams, row['result_silver_2'])
+    add_medal_type(medals, _silver_medal, pairs, row['result_silver_6'])
 
-    add_medal_type(medals, bronze_medal, teams, row['result_bronze_2'])
-    add_medal_type(medals, bronze_medal, pairs, row['result_bronze_6'])
+    add_medal_type(medals, _bronze_medal, teams, row['result_bronze_2'])
+    add_medal_type(medals, _bronze_medal, pairs, row['result_bronze_6'])
 
     if len(medals) == 0:
-        medal_cell = "<span style = 'color: #ffffff00'>Meow</span>"
+        medal_cell = f"<span style = 'color: #{_invisible_color_code}'>{_sadface}</span>"
     else:
         medal_cell = " ".join(medals)
 
     return medal_cell
+
+
+def modify_rank(rank: PDS):
+    for r_bef, r, idx in zip(rank[:-1], rank[1:], [1 + _ for _ in range(len(rank) - 1)]):
+        if r_bef == r:
+            rank.iloc[idx] = f"<span style = 'color: #{_invisible_color_code}'>{r}</span>"
+    return rank
 
 
 def historical_table(master_table: PDF) -> PDF:
@@ -65,10 +77,10 @@ def historical_table(master_table: PDF) -> PDF:
         lambda x: f"{x['points_scored']}:{x['points_received']}", axis=1,
     )
 
-    return (
+    mt_sorted = (
         master_table
             [[
-                "rank",
+                "#",
                 "player_nickname",
                 "tournaments",
                 "matches",
@@ -78,8 +90,12 @@ def historical_table(master_table: PDF) -> PDF:
                 "medals_emoji",
             ]]
             .sort_values(
-                ["rank", "points_ratio_rounded", "tournaments", "matches", "sets", "player_nickname"],
+                ["#", "points_ratio_rounded", "tournaments", "matches", "sets", "player_nickname"],
                 ascending=True
             )
             .reset_index(drop=True)
     )
+
+    mt_sorted["#"] = modify_rank(mt_sorted["#"])
+
+    return mt_sorted
