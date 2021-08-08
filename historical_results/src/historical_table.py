@@ -13,7 +13,7 @@ def add_medal_type(medals: List[str], medal_type: str, medal_appearance: str, me
 _gold_medal = "🥇"
 _silver_medal = "🥈"
 _bronze_medal = "🥉"
-_sadface = "☹"
+_no_medal = "-"
 _invisible_color_code = "ffffff00"
 
 
@@ -33,7 +33,7 @@ def medals_as_emojis(row: Dict[str, Any]) -> str:
     add_medal_type(medals, _bronze_medal, pairs, row['result_bronze_6'])
 
     if len(medals) == 0:
-        medal_cell = f"<span style = 'color: #{_invisible_color_code}'>{_sadface}</span>"
+        medal_cell = f"<span style = 'color: #{_invisible_color_code}'>{_no_medal}</span>"
     else:
         medal_cell = " ".join(medals)
 
