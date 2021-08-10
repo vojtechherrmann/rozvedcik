@@ -2,7 +2,7 @@ from pandas import DataFrame as PDF
 
 
 def save_to_csv(table: PDF, path) -> None:
-    table.to_csv(path, header=False, index=False, encoding='utf-8', sep=',')
+    table.to_csv(path, header=True, index=False, encoding='utf-8', sep=',')
 
 
 def print_historical_records(
