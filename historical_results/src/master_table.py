@@ -132,11 +132,15 @@ def master_table(
     master_table_["rallies"] = \
         master_table_["points_scored"] + master_table_["points_received"]
 
+    master_table_["score"] = master_table_.apply(
+        lambda x: f"{x['points_scored']}:{x['points_received']}",
+        axis=1,
+    )
+
     master_table_["points_ratio"] = \
         master_table_["points_scored"] / master_table_["points_received"]
 
-    master_table_["#"] = \
-        master_table_["points_ratio"].rank(method="min", ascending=False).astype(int)
+    master_table_["score_diff"] = master_table_['points_scored'] - master_table_['points_received']
 
     player_medals = (
         pd.concat(
@@ -170,5 +174,17 @@ def master_table(
     player_medals = convert_pdf_to_int(player_medals, cols_rgx=r"result_(.*)")
 
     master_table_ = master_table_.merge(player_medals, how="left", on="player_code")
-
+    
+    C = 100
+    master_table_["medals_score"] = master_table_.apply(
+        lambda x:
+        (C ** 6) * (x['result_gold_6'] + x['result_gold_2']) +
+        (C ** 5) * (x['result_silver_6'] + x['result_silver_2']) +
+        (C ** 4) * (x['result_bronze_6'] + x['result_bronze_2']) +
+        (C ** 3) * x['result_gold_2'] +
+        (C ** 2) * x['result_silver_2'] +
+        (C ** 1) * x['result_bronze_2'],
+        axis=1,
+    )
+    
     return master_table_.drop("player_code", axis=1, inplace=False)
