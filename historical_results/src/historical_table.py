@@ -56,7 +56,7 @@ def modify_rank(rank: PDS):
     for r_bef, r, idx in zip(rank[:-1], rank[1:], [1 + _ for _ in range(len(rank) - 1)]):
         if r_bef == r:
             cnt += 1
-            rank.iloc[idx] = f"<span style='color: {_INVISIBLE_COLOR_CODE}'>{r}.{cnt}</span>"
+            rank.iloc[idx] = f"<span style='font-size: 0; color: {_INVISIBLE_COLOR_CODE}'>{r}.{cnt}</span>"
         else:
             cnt = 0
     return rank
