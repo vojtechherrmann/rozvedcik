@@ -71,7 +71,7 @@ def score_with_diff(row: Dict[str, Any]) -> str:
 
 
 def modify_nickname(nickname: str) -> str:
-    return f"<span style='color: {_INVISIBLE_COLOR_CODE}'>{unidecode.unidecode(nickname)} | </span>{nickname}"
+    return f"<span style='font-size: 0; color: {_INVISIBLE_COLOR_CODE}'>{unidecode.unidecode(nickname)} | </span>{nickname}"
 
 
 def historical_table(master_table: PDF) -> PDF:
