@@ -1,5 +1,7 @@
 from typing import List, Dict, Any
+
 from pandas import DataFrame as PDF, Series as PDS
+import unidecode
 
 
 def create_link(row: Dict[str, Any]) -> str:
@@ -50,9 +52,13 @@ def medals_as_emojis(row: Dict[str, Any]) -> str:
 
 
 def modify_rank(rank: PDS):
+    cnt = 0
     for r_bef, r, idx in zip(rank[:-1], rank[1:], [1 + _ for _ in range(len(rank) - 1)]):
         if r_bef == r:
-            rank.iloc[idx] = f"<span style='color: {_INVISIBLE_COLOR_CODE}'>{r}</span>"
+            cnt += 1
+            rank.iloc[idx] = f"<span style='color: {_INVISIBLE_COLOR_CODE}'>{r}.{cnt}</span>"
+        else:
+            cnt = 0
     return rank
 
 
@@ -62,6 +68,10 @@ def score_with_diff(row: Dict[str, Any]) -> str:
     order_as_str = int_as_str(row["score_diff_order"])
     return f"<span style='font-size: 0;" \
            f" color: {_INVISIBLE_COLOR_CODE};'>Pořadí hráče {order_as_str}, rozdíl balónů {score_diff}: </span>{score}"
+
+
+def modify_nickname(nickname: str) -> str:
+    return f"<span style='color: {_INVISIBLE_COLOR_CODE}'>{unidecode.unidecode(nickname)} | </span>{nickname}"
 
 
 def historical_table(master_table: PDF) -> PDF:
@@ -112,6 +122,8 @@ def historical_table(master_table: PDF) -> PDF:
     )
 
     ht_sorted["#"] = modify_rank(ht_sorted["#"])
+    ht_sorted["player_nickname"] = ht_sorted["player_nickname"].apply(modify_nickname)
+
     ht_sorted.columns = ["#", "Hráč", "Turnaje", "Zápasy", "Sety", "Míče", "Poměr míčů", "Medaile"]
 
     return ht_sorted
