@@ -1,4 +1,4 @@
-<p style="text-align: left;">Turnaj se hrál ve skupině systémem každý s&nbsp;každým. Dva nejlepší týmy postoupily do finále.</p>
+<p class="pseudo-paragraph">Turnaj se hrál ve skupině systémem každý s&nbsp;každým. Dva nejlepší týmy postoupily do finále.</p><br>
 Jeden z&nbsp;týmů byl pouze pětičlenný, chyběl mu hráč kategorie Okurka. V každém ze&nbsp;4&nbsp;zápasů skupiny dostal pevně přiděleného jednoho hráče této kategorie. V&nbsp;případě postupu do finále by si tento tým volil ze&nbsp;3&nbsp;nehrajících hráčů této kategorie (tým nicméně nepostoupil).
 <br><br>
 Zápasy se hrály na dva hrané sety do&nbsp;25 (o&nbsp;2&nbsp;body) od stavu&nbsp;5:5. Bodovalo se italským systémem - za vítězství&nbsp;2:0&nbsp;tři body, za vyhranou remízu dva body, za prohranou remízu jeden bod, za prohru&nbsp;0:2&nbsp;nula bodů a za přesnou remízu&nbsp;1.5&nbsp;bodu.
