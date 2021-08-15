@@ -1,6 +1,14 @@
 # rozvedcik
 This repository stores various projects related to Rozvedcik Volleyball Tournament by Bára and Vojta.
 
+## drawing/dobble-5
+[Dobble](https://www.dobblegame.com/)-like drawing system, used in 2019, 2020 and 2021-hobby. 
+TBD
+
+## drawing/grid-2x4
+Drawing system for two tournaments of four teams, used in 2021-profi.
+TBD
+
 ## historical_results
 Py project for calculating all relevant inputs for historical table, statistics and records.
 #### Installation
