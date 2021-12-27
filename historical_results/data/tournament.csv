@@ -1,5 +1,6 @@
-﻿tournament_id,tournament_code,date,category,year
-1,2019,13.07.2019,,2019
-2,2020,18.07.2020,,2020
-3,2021-profi,26.06.2021,profi,2021
-4,2021-hobby,07.08.2021,hobby,2021
+﻿tournament_id,tournament_code,date,category,year,sport_name
+1,2019,13.07.2019,,2019,volleyball
+2,2020,18.07.2020,,2020,volleyball
+3,2021-profi,26.06.2021,profi,2021,volleyball
+4,2021-hobby,07.08.2021,hobby,2021,volleyball
+5,2021-beach,18.12.2021,,2021,beachvolleyball

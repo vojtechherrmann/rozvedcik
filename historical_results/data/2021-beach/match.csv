@@ -1,0 +1,4 @@
+﻿match_tournament_id,match_tournament_code,team_tournament_code_1,team_tournament_code_2,gender,group_stage,quarterfinals,semifinals,finals,thirdplace
+4_1,2021-hobby_1,2021-hobby_Argentina,2021-hobby_Brazílie,mixed,1,0,0,0,0
+4_1,2021-hobby_1,2021-hobby_Argentina,2021-hobby_Brazílie,men,1,0,0,0,0
+4_1,2021-hobby_1,2021-hobby_Argentina,2021-hobby_Brazílie,women,1,0,0,0,0
