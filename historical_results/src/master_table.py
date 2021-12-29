@@ -146,8 +146,10 @@ def master_table(
         pd.concat(
             [
                 team_tournament
+                    .merge(tournament, how="left", on="tournament_code")
                     .merge(player_team_tournament, how="left", on="team_tournament_code")
                     .merge(player_tournament, how="left", on="player_tournament_code")
+                    .query('sport_name == "volleyball"')
                     .groupby("player_code")
                     .agg(
                         result_gold_6=("team_result", lambda x: x[x == 1].shape[0]),
@@ -156,11 +158,23 @@ def master_table(
                     )
                     .reset_index(),
                 player_tournament
+                    .merge(tournament, how="left", on="tournament_code")
+                    .query('sport_name == "volleyball"')
                     .groupby("player_code")
                     .agg(
                         result_gold_2=("player_result", lambda x: x[x == 1].shape[0]),
                         result_silver_2=("player_result", lambda x: x[x == 2].shape[0]),
                         result_bronze_2=("player_result", lambda x: x[x == 3].shape[0]),
+                    )
+                    .reset_index(),
+                player_tournament
+                    .merge(tournament, how="left", on="tournament_code")
+                    .query('sport_name == "beachvolleyball"')
+                    .groupby("player_code")
+                    .agg(
+                        result_gold_2b=("player_result", lambda x: x[x == 1].shape[0]),
+                        result_silver_2b=("player_result", lambda x: x[x == 2].shape[0]),
+                        result_bronze_2b=("player_result", lambda x: x[x == 3].shape[0]),
                     )
                     .reset_index(),
             ],
@@ -178,6 +192,9 @@ def master_table(
     C = 100
     master_table_["medals_score"] = master_table_.apply(
         lambda x:
+        (C ** 9) * (x['result_gold_2b'] + x['result_gold_6'] + x['result_gold_2']) +
+        (C ** 8) * (x['result_silver_2b'] + x['result_silver_6'] + x['result_silver_2']) +
+        (C ** 7) * (x['result_bronze_2b'] + x['result_bronze_6'] + x['result_bronze_2']) +
         (C ** 6) * (x['result_gold_6'] + x['result_gold_2']) +
         (C ** 5) * (x['result_silver_6'] + x['result_silver_2']) +
         (C ** 4) * (x['result_bronze_6'] + x['result_bronze_2']) +

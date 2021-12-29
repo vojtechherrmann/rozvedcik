@@ -31,18 +31,22 @@ def int_as_str(i: int, decimals: int = 3) -> str:
 
 
 def medals_as_emojis(row: Dict[str, Any]) -> str:
-    teams = "style='font-size: 28px; background-color: #d1ada8; border-radius: 2px;'"
+    teams = "style='font-size: 28px; background-color: #D1ADA8; border-radius: 2px;'"
     pairs = "style='font-size: 28px; background-color: #8DACA6; border-radius: 2px;'"
+    beach = "style='font-size: 28px; background-color: #FFE66D; border-radius: 2px;'"
     medals = []
 
     add_to_medals(medals, _GOLD_MEDAL, teams, row['result_gold_2'])
     add_to_medals(medals, _GOLD_MEDAL, pairs, row['result_gold_6'])
+    add_to_medals(medals, _GOLD_MEDAL, beach, row['result_gold_2b'])
 
     add_to_medals(medals, _SILVER_MEDAL, teams, row['result_silver_2'])
     add_to_medals(medals, _SILVER_MEDAL, pairs, row['result_silver_6'])
+    add_to_medals(medals, _SILVER_MEDAL, beach, row['result_silver_2b'])
 
     add_to_medals(medals, _BRONZE_MEDAL, teams, row['result_bronze_2'])
     add_to_medals(medals, _BRONZE_MEDAL, pairs, row['result_bronze_6'])
+    add_to_medals(medals, _BRONZE_MEDAL, beach, row['result_bronze_2b'])
 
     order_as_str = int_as_str(row["#"])
     medals_order = f"<span style='font-size: 0; color: {_INVISIBLE_COLOR_CODE};'>Pořadí hráče {order_as_str}: </span>"
