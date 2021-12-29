@@ -1,19 +1,19 @@
-﻿player_tournament_id,player_tournament_code,player_code,tournament_category_code,player_code,player_result
-5_1,2021-beach_Honza K.,Honza K.
-5_2,2021-beach_Kubo G.,Kubo G.
-5_3,2021-beach_Ondra N.,Ondra N.
-5_4,2021-beach_Vojta Hu.,Vojta Hu.
-5_5,2021-beach_Šimon C.,Šimon C.
-5_6,2021-beach_Roman H.,Roman H.
-5_7,2021-beach_Kuna,Kuna
-5_8,2021-beach_Jiřík N.,Jiřík N.
-5_9,2021-beach_Heřmi,Heřmi
-5_10,2021-beach_Zelí,Zelí
-5_11,2021-beach_Bára,Bára
-5_12,2021-beach_Anča,Anča
-5_13,2021-beach_Zuzka Č.,Zuzka Č.
-5_14,2021-beach_Anča J.,Anča J.
-5_15,2021-beach_Marťa N.,Marťa N.
-5_16,2021-beach_Bára J.,Bára J.
-5_17,2021-beach_Lucka V.,Lucka V.
-5_18,2021-beach_Míša V.,Míša V.
+﻿player_tournament_id,player_tournament_code,player_code,tournament_category_code,player_result
+5_1,2021-beach_Honza K.,Honza K.,,3
+5_2,2021-beach_Kubo G.,Kubo G.,,2
+5_3,2021-beach_Ondra N.,Ondra N.,,6
+5_4,2021-beach_Vojta Hu.,Vojta Hu.,,8
+5_5,2021-beach_Šimon C.,Šimon C.,,9
+5_6,2021-beach_Roman H.,Roman H.,,1
+5_7,2021-beach_Kuna,Kuna,,9
+5_8,2021-beach_Jiřík N.,Jiřík N.,,7
+5_9,2021-beach_Heřmi,Heřmi,,4
+5_10,2021-beach_Zelí,Zelí,,5
+5_11,2021-beach_Bára,Bára,,4
+5_12,2021-beach_Anča,Anča,,3
+5_13,2021-beach_Zuzka Č.,Zuzka Č.,,7
+5_14,2021-beach_Anča J.,Anča J.,,5
+5_15,2021-beach_Marťa N.,Marťa N.,,2
+5_16,2021-beach_Bára J.,Bára J.,,1
+5_17,2021-beach_Lucka V.,Lucka V.,,8
+5_18,2021-beach_Míša V.,Míša V.,,6
