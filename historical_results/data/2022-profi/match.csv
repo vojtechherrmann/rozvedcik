@@ -1,0 +1,14 @@
+﻿match_tournament_id,match_tournament_code,team_tournament_code_1,team_tournament_code_2,gender,group_stage,quarterfinals,semifinals,finals,thirdplace,lower_playoff,other
+6_1,2022-profi_1,2022-profi_A,2022-profi_B,mixed,1,0,0,0,0,0,0
+6_2,2022-profi_2,2022-profi_C,2022-profi_D,mixed,1,0,0,0,0,0,0
+6_3,2022-profi_3,2022-profi_A,2022-profi_D,mixed,1,0,0,0,0,0,0
+6_4,2022-profi_4,2022-profi_B,2022-profi_C,mixed,1,0,0,0,0,0,0
+6_5,2022-profi_5,2022-profi_B,2022-profi_D,mixed,1,0,0,0,0,0,0
+6_6,2022-profi_6,2022-profi_A,2022-profi_C,mixed,1,0,0,0,0,0,0
+6_7,2022-profi_7,2022-profi_L,2022-profi_J,mixed,1,0,0,0,0,0,0
+6_8,2022-profi_8,2022-profi_K,2022-profi_I,mixed,1,0,0,0,0,0,0
+6_9,2022-profi_9,2022-profi_I,2022-profi_J,mixed,1,0,0,0,0,0,0
+6_10,2022-profi_10,2022-profi_K,2022-profi_L,mixed,1,0,0,0,0,0,0
+6_11,2022-profi_11,2022-profi_K,2022-profi_J,mixed,1,0,0,0,0,0,0
+6_12,2022-profi_12,2022-profi_L,2022-profi_I,mixed,1,0,0,0,0,0,0
+6_13,2022-profi_13,2022-profi_Fin1,2022-profi_Fin2,mixed,0,0,0,1,0,0,0
