@@ -1,0 +1,14 @@
+﻿match_tournament_id,match_tournament_code,team_tournament_code_1,team_tournament_code_2,gender,group_stage,quarterfinals,semifinals,finals,thirdplace,lower_playoff,other
+7_1,2022-hobby_1,2022-hobby_Blue Lagoon,2022-hobby_Pina Colada,mixed,1,0,0,0,0,0,0
+7_2,2022-hobby_2,2022-hobby_Blue Lagoon,2022-hobby_Mojito,mixed,1,0,0,0,0,0,0
+7_3,2022-hobby_3,2022-hobby_Pina Colada,2022-hobby_Mojito,mixed,1,0,0,0,0,0,0
+7_4,2022-hobby_4,2022-hobby_Cuba Libre,2022-hobby_Sex on the Beach,mixed,1,0,0,0,0,0,0
+7_5,2022-hobby_5,2022-hobby_Cuba Libre,2022-hobby_Cosmopolitan,mixed,1,0,0,0,0,0,0
+7_6,2022-hobby_6,2022-hobby_Sex on the Beach,2022-hobby_Cosmopolitan,mixed,1,0,0,0,0,0,0
+7_7,2022-hobby_7,2022-hobby_Blue Lagoon,2022-hobby_Cuba Libre,mixed,0,1,0,0,0,0,0
+7_8,2022-hobby_8,2022-hobby_Cosmopolitan,2022-hobby_Pina Colada,mixed,0,1,0,0,0,0,0
+7_9,2022-hobby_9,2022-hobby_Blue Lagoon,2022-hobby_Sex on the Beach,mixed,0,0,1,0,0,0,0
+7_10,2022-hobby_10,2022-hobby_Pina Colada,2022-hobby_Mojito,mixed,0,0,1,0,0,0,0
+7_11,2022-hobby_11,2022-hobby_Blue Lagoon,2022-hobby_Pina Colada,mixed,0,0,0,1,0,0,0
+7_12,2022-hobby_12,2022-hobby_Sex on the Beach,2022-hobby_Mojito,mixed,0,0,0,0,1,0,0
+7_13,2022-hobby_13,2022-hobby_Cosmopolitan,2022-hobby_Cuba Libre,mixed,0,0,0,0,0,1,0
