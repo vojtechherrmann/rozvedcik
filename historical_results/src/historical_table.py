@@ -125,7 +125,7 @@ def historical_table(master_table: PDF) -> PDF:
             .reset_index(drop=True)
     )
 
-    ht_sorted["#"] = modify_rank(ht_sorted["#"])
+    # ht_sorted["#"] = modify_rank(ht_sorted["#"])
     ht_sorted["player_nickname"] = ht_sorted["player_nickname"].apply(modify_nickname)
 
     ht_sorted.columns = ["#", "Hráč", "Turnaje", "Zápasy", "Sety", "Míče", "Poměr míčů", "Medaile"]
